@@ -302,7 +302,7 @@ while not logged_in:
         print("Login successful!")
         logged_in = True
 
-# Main menu loop
+# Main menu loops
 while True:
     print()
     menu = input('''Select one of the following options:
