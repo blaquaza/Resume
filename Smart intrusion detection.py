@@ -2,7 +2,7 @@ import re
 import csv
 from datetime import datetime
 
-LOG_FILE = "auth.log"  # Replace with your log file
+LOG_FILE = "auth.log"  # Replace with your log files
 OUTPUT_FILE = "threat_report.csv"
 
 failed_login_pattern = re.compile(r"Failed password for .* from (\d+\.\d+\.\d+\.\d+)")
