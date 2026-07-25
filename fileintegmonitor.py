@@ -4,7 +4,6 @@ File Integrity Monitor
 Baselines a directory's file hashes and later detects additions,
 deletions, or modifications. Standard library only.
 """
-
 import os
 import json
 import hashlib
